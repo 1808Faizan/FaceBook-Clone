@@ -1,0 +1,118 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e9edf1; /* Softer and more modern background color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif; /* Consistent, clean font */
+}
+
+.loginWrapper {
+  width: 70%;
+  max-width: 1200px; /* Limit the max width for better responsiveness */
+  height: 70%;
+  display: flex;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for better focus */
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.loginLeft, .loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px; /* Padding for balanced spacing */
+}
+
+.loginLogo {
+  font-size: 55px;
+  font-weight: bold;
+  color: #1877f2;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Soft text shadow */
+}
+
+.loginDesc {
+  font-size: 20px;
+  color: #555; /* Subtle text color */
+  line-height: 1.6; /* Improved readability */
+}
+
+.loginBox {
+  width: 100%;
+  max-width: 400px; /* Fixed width for the form box */
+  height: auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Light shadow for better depth */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px; /* Consistent spacing */
+}
+
+.loginInput {
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  padding-left: 15px;
+  transition: all 0.3s ease; /* Smooth transitions */
+}
+
+.loginInput:focus {
+  outline: none;
+  border-color: #1877f2; 
+  box-shadow: 0 0 8px rgba(24, 119, 242, 0.3); 
+}
+
+.loginButton {
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: #1877f2;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.loginButton:hover {
+  background-color: #155ec9; 
+}
+
+.loginForgot {
+  text-align: center;
+  color: #1877f2;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.loginForgot:hover {
+  color: #155ec9; 
+  text-decoration: underline;
+}
+
+.loginRegisterButton {
+  width: 100%; 
+  max-width: 300px; 
+  align-self: center;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: #42b72a;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginRegisterButton:hover {
+  background-color: #36a420; /* Darker green on hover */
+}
