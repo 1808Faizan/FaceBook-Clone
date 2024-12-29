@@ -1,0 +1,2 @@
+1. Install Node modules using npm i or npm init
+2. Use package.json for installing more packages.
